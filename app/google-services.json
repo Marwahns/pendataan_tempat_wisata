@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "584374496327",
+    "project_id": "pendataan-tempat-wisata-uas-mp",
+    "storage_bucket": "pendataan-tempat-wisata-uas-mp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584374496327:android:9e25101b41bc42afc35562",
+        "android_client_info": {
+          "package_name": "pnj.uas.ti.marwah_nur_shafira"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584374496327-4e6hl8m05sbqtskq2ohmm22q1rddj6h2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3nFOoeOu2BJZx1LViyHIwEYJbEcmsUBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584374496327-4e6hl8m05sbqtskq2ohmm22q1rddj6h2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".crudWisata.TambahDataActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblTambahData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Create a new data"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginVertical="20dp"/>
+
+            <TextView
+                android:id="@+id/lblNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Nama"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp" />
+
+            <EditText
+                android:id="@+id/edtNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Tempat Wisata"
+                android:inputType="textPersonName"
+                android:padding="15dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_border_edit_text"/>
+
+            <TextView
+                android:id="@+id/lblTlp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Telepon"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/edtNoTlp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Telepon"
+                android:minHeight="48dp"
+                android:padding="15dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_border_edit_text"/>
+
+            <TextView
+                android:id="@+id/lblTahunBeroperasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Tanggal Beroperasi"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/edtTahunBeroperasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_border_edit_text"
+                android:ems="10"
+                android:hint="Tanggal Mulai Beroperasi"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:padding="15dp" />
+
+            <Button
+                android:id="@+id/btnDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="5dp"
+                android:text="Show Date"
+                android:layout_gravity="end"/>
+
+            <TextView
+                android:id="@+id/lblLongitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Longitude"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/edtLongitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Longitude"
+                android:inputType="numberSigned"
+                android:minHeight="48dp"
+                android:padding="15dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_border_edit_text"  />
+
+            <TextView
+                android:id="@+id/lblLatitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="Latitude"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/edtLatitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Latitude"
+                android:minHeight="48dp"
+                android:padding="15dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_border_edit_text" />
+
+            <Button
+                android:id="@+id/btnSimpan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="Create Data"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="15dp"
+                android:backgroundTint="@color/login"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

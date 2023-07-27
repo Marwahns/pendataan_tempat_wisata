@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Pendataan Tempat Wisata</string>
+    <string name="string_welcome">Welcome to Lafyuu 3</string>
+    <string name="string_login">Sign In</string>
+    <string name="string_your_email">Your Email</string>
+    <string name="string_password">Password</string>
+    <string name="string_or">Or</string>
+    <string name="string_login_with_google">Login with Google</string>
+    <string name="string_login_with_facebook">Login with Facebook</string>
+    <string name="string_forgot_password">Forgot Password</string>
+    <string name="string_dont_have_account">Dont have a account? Register</string>
+    <string name="string_create_account">Create a new account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="todo">TODO</string>
+    <string name="about_application">CN-App adalah aplikasi mobile yang dirancang untuk membantu pengguna dalam melakukan pendataan tempat wisata favorit mereka dan juga memberikan berita terkini seputar travel, destinasi, dan liburan. Aplikasi ini dilengkapi dengan fitur CRUD (Create, Read, Update, Delete) untuk pengelolaan data tempat wisata, serta fitur profile untuk pengguna agar dapat dengan mudah mengakses dan mengelola informasi pribadi mereka. Selain itu, CN-App menyediakan menu berita yang berisi konten-konten menarik terkait industri travel dan liburan</string>
+</resources>
